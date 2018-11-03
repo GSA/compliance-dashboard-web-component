@@ -6,7 +6,7 @@ https://gsa.github.io/compliance-dashboard-web-component/
 
 # basic usage
 ```html
-<compliance dashboard config='YOUR-CONFIG-JSON-HERE' data='YOUR-DATA-JSON-HERE' /> 
+<compliance-dashboard config='YOUR-CONFIG-JSON-HERE' data='YOUR-DATA-JSON-HERE' /> 
 ```
 
 # screenshot
