@@ -13,6 +13,7 @@ https://gsa.github.io/compliance-dashboard-web-component/
 ![screenshot of compliance dashboard example](compliance-dashboard-screenshot.png)
 
 # detailed usage
+Your config JSON and data JSON should be stringified (converted to a string) before they are set as attributes.
 ```html
 <!DOCTYPE html>
 <html style="background: darkblue;">
