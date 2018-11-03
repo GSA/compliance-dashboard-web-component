@@ -4,7 +4,15 @@ Reusable compliance dashboard web component
 # demo
 https://gsa.github.io/compliance-dashboard-web-component/
 
-# usage
+# basic usage
+```html
+<compliance dashboard config='YOUR-CONFIG-JSON-HERE' data='YOUR-DATA-JSON-HERE' /> 
+```
+
+# screenshot
+![screenshot of compliance dashboard example](compliance-dashboard-screenshot.png)
+
+# detailed usage
 ```html
 <!DOCTYPE html>
 <html style="background: darkblue;">
@@ -63,3 +71,6 @@ https://gsa.github.io/compliance-dashboard-web-component/
   </body>
 </html>
 ```
+
+# contact
+code@gsa.gov
