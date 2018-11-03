@@ -1,0 +1,275 @@
+[
+  {
+    "img": "img/USDA-50x50.png",
+    "name": "Department of Agriculture",
+    "requirements": {
+      "overall": 0.25,
+      "sub": {
+        "agencyWidePolicy": 0.75,
+        "openSourceRequirement": 0,
+        "inventoryRequirement": 0,
+        "schemaFormat": 0.5
+      }
+    }
+  },
+  {
+    "img": "img/DOC-50x50.png",
+    "name": "Department of Commerce",
+    "requirements": {
+      "overall": 0.25,
+      "sub": {
+        "agencyWidePolicy": 0.75,
+        "openSourceRequirement": 0,
+        "inventoryRequirement": 0,
+        "schemaFormat": 0.5
+      }
+    }
+  },
+  {
+    "img": "img/ED-50x50.png",
+    "name": "Department of Education",
+    "requirements": {
+      "overall": 0.6666666666666666,
+      "sub": {
+        "agencyWidePolicy": 1,
+        "openSourceRequirement": 1,
+        "inventoryRequirement": 0,
+        "schemaFormat": 0.5
+      }
+    }
+  },
+  {
+    "img": "img/DOE-50x50.png",
+    "name": "Department of Energy",
+    "requirements": {
+      "overall": 1,
+      "sub": {
+        "agencyWidePolicy": 1,
+        "openSourceRequirement": 1,
+        "inventoryRequirement": 1,
+        "schemaFormat": 0.5
+      }
+    }
+  },
+  {
+    "img": "img/HHS-50x50.png",
+    "name": "Department of Health and Human Services",
+    "requirements": {
+      "overall": 0.3333333333333333,
+      "sub": {
+        "agencyWidePolicy": 1,
+        "openSourceRequirement": 0,
+        "inventoryRequirement": 0,
+        "schemaFormat": 0.5
+      }
+    }
+  },
+  {
+    "img": "img/HUD-50x50.png",
+    "name": "Department of Housing and Urban Development",
+    "requirements": {
+      "overall": 0.6666666666666666,
+      "sub": {
+        "agencyWidePolicy": 1,
+        "openSourceRequirement": 0,
+        "inventoryRequirement": 1,
+        "schemaFormat": 0.5
+      }
+    }
+  },
+  {
+    "img": "img/DHS-50x50.png",
+    "name": "Department of Homeland Security",
+    "requirements": {
+      "overall": 0.3333333333333333,
+      "sub": {
+        "agencyWidePolicy": 1,
+        "openSourceRequirement": 0,
+        "inventoryRequirement": 0,
+        "schemaFormat": 0.5
+      }
+    }
+  },
+  {
+    "img": "img/DOJ-50x50.png",
+    "name": "Department of Justice",
+    "requirements": {
+      "overall": 0.3333333333333333,
+      "sub": {
+        "agencyWidePolicy": 1,
+        "openSourceRequirement": 0,
+        "inventoryRequirement": 0,
+        "schemaFormat": 0.5
+      }
+    }
+  },
+  {
+    "img": "img/DOL-50x50.png",
+    "name": "Department of Labor",
+    "requirements": {
+      "overall": 0.8333333333333334,
+      "sub": {
+        "agencyWidePolicy": 1,
+        "openSourceRequirement": 1,
+        "inventoryRequirement": 0.5,
+        "schemaFormat": 0.5
+      }
+    }
+  },
+  {
+    "img": "img/DOT-50x50.png",
+    "name": "Department of Transportation",
+    "requirements": {
+      "overall": 0.5,
+      "sub": {
+        "agencyWidePolicy": 1,
+        "openSourceRequirement": 0.5,
+        "inventoryRequirement": 0,
+        "schemaFormat": 0.5
+      }
+    }
+  },
+  {
+    "img": "img/TREASURY-50x50.png",
+    "name": "Department of the Treasury",
+    "requirements": {
+      "overall": 0.25,
+      "sub": {
+        "agencyWidePolicy": 0.75,
+        "openSourceRequirement": 0,
+        "inventoryRequirement": 0,
+        "schemaFormat": 0.5
+      }
+    }
+  },
+  {
+    "img": "img/EPA-50x50.png",
+    "name": "Environmental Protection Agency",
+    "requirements": {
+      "overall": 0.5,
+      "sub": {
+        "agencyWidePolicy": 1,
+        "openSourceRequirement": 0.5,
+        "inventoryRequirement": 0,
+        "schemaFormat": 0.5
+      }
+    }
+  },
+  {
+    "img": "img/NASA-50x50.png",
+    "name": "National Aeronautics and Space Administration",
+    "requirements": {
+      "overall": 0.8333333333333334,
+      "sub": {
+        "agencyWidePolicy": 1,
+        "openSourceRequirement": 1,
+        "inventoryRequirement": 0.5,
+        "schemaFormat": 0.5
+      }
+    }
+  },
+  {
+    "img": "img/USAID-50x50.png",
+    "name": "Agency for International Development",
+    "requirements": {
+      "overall": 0.3333333333333333,
+      "sub": {
+        "agencyWidePolicy": 1,
+        "openSourceRequirement": 0,
+        "inventoryRequirement": 0,
+        "schemaFormat": 0.5
+      }
+    }
+  },
+  {
+    "img": "img/GSA-50x50.png",
+    "name": "General Services Administration",
+    "requirements": {
+      "overall": 1,
+      "sub": {
+        "agencyWidePolicy": 1,
+        "openSourceRequirement": 1,
+        "inventoryRequirement": 1,
+        "schemaFormat": 0.5
+      }
+    }
+  },
+  {
+    "img": "img/NSF-50x50.png",
+    "name": "National Science Foundation",
+    "requirements": {
+      "overall": 1,
+      "sub": {
+        "agencyWidePolicy": 1,
+        "openSourceRequirement": 1,
+        "inventoryRequirement": 1,
+        "schemaFormat": 0.5
+      }
+    }
+  },
+  {
+    "img": "img/NRC-50x50.png",
+    "name": "Nuclear Regulatory Commission",
+    "requirements": {
+      "overall": 0.3333333333333333,
+      "sub": {
+        "agencyWidePolicy": 1,
+        "openSourceRequirement": 0,
+        "inventoryRequirement": 0,
+        "schemaFormat": 0.5
+      }
+    }
+  },
+  {
+    "img": "img/OPM-50x50.png",
+    "name": "Office of Personnel Management",
+    "requirements": {
+      "overall": 0.25,
+      "sub": {
+        "agencyWidePolicy": 0.75,
+        "openSourceRequirement": 0,
+        "inventoryRequirement": 0,
+        "schemaFormat": 0.5
+      }
+    }
+  },
+  {
+    "img": "img/SBA-50x50.png",
+    "name": "Small Business Administration",
+    "requirements": {
+      "overall": 0.3333333333333333,
+      "sub": {
+        "agencyWidePolicy": 1,
+        "openSourceRequirement": 0,
+        "inventoryRequirement": 0,
+        "schemaFormat": 0.5
+      }
+    }
+  },
+  {
+    "img": "img/NARA-50x50.png",
+    "name": "National Archives and Records Administration",
+    "requirements": {
+      "overall": 0.6666666666666666,
+      "sub": {
+        "agencyWidePolicy": 1,
+        "openSourceRequirement": 0.5,
+        "inventoryRequirement": 0.5,
+        "schemaFormat": 0.5
+      }
+    }
+  },
+  {
+    "img": "img/SSA-50x50.png",
+    "name": "Social Security Administration",
+    "requirements": {
+      "overall": 0.8333333333333334,
+      "sub": {
+        "agencyWidePolicy": 1,
+        "openSourceRequirement": 1,
+        "inventoryRequirement": 0.5,
+        "schemaFormat": 0.5
+      }
+    }
+  }
+]
