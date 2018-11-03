@@ -1,0 +1,26 @@
+{
+  "name": "@code.gov/compliance-dashboard-web-component",
+  "version": "0.1.0",
+  "description": "Reusable compliance dashboard web component",
+  "main": "index.js",
+  "scripts": {
+    "demo": "http-server",
+    "demo-on-server": "sudo PORT=80 http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GSA/compliance-dashboard-web-component.git"
+  },
+  "keywords": [
+    "compliance",
+    "dashboard",
+    "webcomponent",
+    "status"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/GSA/compliance-dashboard-web-component/issues"
+  },
+  "homepage": "https://github.com/GSA/compliance-dashboard-web-component#readme"
+}
