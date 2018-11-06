@@ -142,15 +142,15 @@
         }
 
         #cd-${uid} .card-${uid}.compliant {
-          border-color: #2e8540;
+          border-left-color: #2e8540;
         }
 
         #cd-${uid} .card-${uid}.partial {
-          border-color: #fdb81e;
+          border-left-color: #fdb81e;
         }
 
         #cd-${uid} .card-${uid}.noncompliant {
-          border-color: #981b1e;
+          border-left-color: #981b1e;
         }
 
         .h3-${uid} {
