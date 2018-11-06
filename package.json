@@ -1,6 +1,6 @@
 {
   "name": "@code.gov/compliance-dashboard-web-component",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Reusable compliance dashboard web component",
   "main": "index.js",
   "scripts": {
