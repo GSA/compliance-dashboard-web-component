@@ -2,7 +2,9 @@
 <html style="background: darkblue;">
   <head>
     <title>Compliance Dashboard Web Component Demo</title>
-    <script src="./index.js"></script>
+    <script src="polyfills/custom-elements.js"></script>
+    <script src="polyfills/babel-polyfill.js"></script>
+    <script src="dist/compliance-dashboard.min.js"></script>
   </head>
   <body style="max-width: 900px; padding: 3rem;">
     <div>
@@ -65,6 +67,7 @@
         dashboard.setAttribute('config', JSON.stringify(configJSON));
         dashboard.setAttribute('data', JSON.stringify(dataJSON));
       });
+
     </script>
   </body>
 </html>

@@ -1,9 +1,10 @@
 {
   "name": "@code.gov/compliance-dashboard-web-component",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Reusable compliance dashboard web component",
   "main": "index.js",
   "scripts": {
+    "build": "./node_modules/.bin/babel src/index.js -o dist/compliance-dashboard.min.js",
     "demo": "http-server",
     "demo-on-server": "sudo PORT=80 http-server",
     "update-sample-data": "node update-sample-data.js"
@@ -26,6 +27,12 @@
   "homepage": "https://github.com/GSA/compliance-dashboard-web-component#readme",
   "dependencies": {},
   "devDependencies": {
-    "axios": "^0.18.0"
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-transform-arrow-functions": "^7.0.0",
+    "@babel/plugin-transform-classes": "^7.1.0",
+    "@babel/plugin-transform-destructuring": "^7.1.3",
+    "@babel/plugin-transform-template-literals": "^7.0.0"
   }
 }

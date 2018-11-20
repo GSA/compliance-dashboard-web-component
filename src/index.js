@@ -55,7 +55,8 @@
             <div class="dashboard-entity-heading">
               <h3 class="h3-${uid}">${name}</h3>
               <h4 class="h4-${uid} ${overallStatus}">${this.displayStatus[overallStatus]}</h4>
-              ${this.config.text.map(({req, variants}) => {
+              ${this.config.text.map(textPart => {
+                const { req, variants } = textPart;
                 const status =  this.getStatusAsText(entry.requirements.sub[req]);
                 console.log("status:", status);
                 return this.getReqLine(req, status, variants[status]);
