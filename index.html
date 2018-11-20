@@ -6,7 +6,7 @@
   </head>
   <body style="max-width: 900px; padding: 3rem;">
     <div>
-      <compliance-dashboard/>
+      <compliance-dashboard></compliance-dashboard>
     </div>
     <script>
       const configJSON = {
@@ -43,14 +43,28 @@
         ]
       };
 
-      fetch("./example-data.json")
-        .then(response => response.json())
-        .then(dataJSON => {
-          const dashboard = document.querySelector('compliance-dashboard');
-          console.log("dashboard:", dashboard);
-          dashboard.setAttribute('config', JSON.stringify(configJSON));
-          dashboard.setAttribute('data', JSON.stringify(dataJSON));
-        })
+
+      /*
+        I'd prefer to use fetch, but need to get demo to work on IE :-(
+      */
+      function getJSON(url, callback) {
+        var xhr = new XMLHttpRequest();
+
+        xhr.onreadystatechange = function() {
+          if (xhr.readyState === 4) {
+            callback(JSON.parse(xhr.response));
+          }
+        }
+
+        xhr.open('GET', url, true);
+        xhr.send('');
+      }
+
+      getJSON("./example-data.json", function(dataJSON){
+        const dashboard = document.querySelector('compliance-dashboard');
+        dashboard.setAttribute('config', JSON.stringify(configJSON));
+        dashboard.setAttribute('data', JSON.stringify(dataJSON));
+      });
     </script>
   </body>
 </html>
