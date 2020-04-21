@@ -1,3 +1,8 @@
+# DEPRECATED 
+## This project repo is no longer being maintained.
+
+---
+
 # compliance-dashboard-web-component
 Reusable compliance dashboard web component
 
